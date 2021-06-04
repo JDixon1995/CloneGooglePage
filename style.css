@@ -3,3 +3,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#topBar {
+    margin: 10px;
+    padding: 10px;
+}
+
+.leftBar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftBar a {
+    margin: 5px;
+}
+
+.rightBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightBar a {
+    margin: 5px;
+}
+
+#mainContainer {
+    text-align: center;
+}
+
+#logo {
+    margin-left: 43%; 
+}
+
+#searchField {
+    border-radius: 15%;
+    margin: 10%;
+    padding: 10px;
+}
+
+#buttonContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    display: flex;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    text-align: bottom;
+}
